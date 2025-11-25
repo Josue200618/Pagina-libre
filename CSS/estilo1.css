@@ -18,7 +18,7 @@
     /* NUEVAS VARIABLES PARA COLORES QUE FALTABAN */
     --verde-oscuro: #00994d;
     --negro-transparente-suave: rgba(0,0,0,0.2);
-    --negro-transparente-medio: rgba(0,0,0,0.1);
+    --negro-transparente-medio: rgba(0,0,0,0.9);
     --negro-transparente-bajo: rgba(0,0,0,0.05);
     --gradient-seccion-extra-a: rgba(255,0,102,0.1);
     --gradient-seccion-extra-b: rgba(102,0,255,0.1);
@@ -149,7 +149,7 @@ body {
     right: -100%;
     width: 80%;
     height: calc(100vh - 70px);
-    background: var(-blanco);
+    background: var(--blanco-transparente);
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
